@@ -1,4 +1,4 @@
-const pets = {
+const breeds = {
 	dog_breed_data: {
 		breedData: [
 			{
@@ -16336,10 +16336,11 @@ const pets = {
 		},
 	],
 };
-async function getAllPets() {
-	return await pets;
+
+async function getAllBreeds() {
+	return await breeds;
 }
 
 module.exports = {
-	getAllPets,
+	getAllBreeds,
 };

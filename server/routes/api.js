@@ -1,9 +1,9 @@
 const express = require('express');
 
-const petsRouter = require('./pets/pets.router');
+const breedsRouter = require('./breeds/breeds.router');
 
 const api = express.Router();
 
-api.use('/retrievepetswithbreeddata', petsRouter);
+api.use('/retrievepetswithbreeddata', breedsRouter);
 
 module.exports = api;
